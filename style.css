@@ -1,0 +1,762 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.menu-item{
+    height:2px;
+    width:20px;
+    background-color: #fff;
+    margin-bottom:3px;
+}
+.menu{
+    display:none;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+right:0;
+    padding:15px;
+    z-index:1000;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+header a{
+    color:#fff;
+    text-decoration:none;
+}
+nav a{
+    color:#fff;
+padding-right:25px;
+
+
+}
+nav a:hover{
+    /* color:rgb(15, 235, 235); */
+    color:rgb(240, 80, 163);
+}
+body{
+    /* background-color: rgb(164, 21, 164); */
+    background-color: rgb(36, 26, 176);
+    /* background-color: rgb(249, 136, 217); */
+}
+.home{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#fff;
+    padding:120px;
+}
+.home-image{
+    /* border:4px solid rgb(216, 21, 129); */
+    position:relative;
+    border:6px solid rgb(36, 26, 176); 
+    /* border:6px solid purple; */
+    border-radius:50%;
+     width:0px;
+    height:0px; 
+}
+.colouring{
+    position:relative;
+    /* border:6px solid rgb(224, 34, 34);  */
+        border:6px solid rgb(36, 26, 176);
+    border-radius:50%;
+    width:0px;
+     height:0px;    
+}
+.outerColour{
+    position:relative;
+    border:4px solid aquamarine; 
+    border-radius:50%;
+    width:329px;
+     height:330px;  
+}
+.home-image img{
+    /* border:6px solid aqua; */
+    border:6px solid aqua; 
+    border-radius:50%;
+    width:300px;
+    height:300px;
+     /* box-shadow: 5px 14px 90px 50px rgb(254, 1, 140);  */
+    /* box-shadow: rgb(242, 8, 125) 0px 22px 70px 4px; */
+    box-shadow: 5px 14px 100px 40px aqua; 
+    
+}
+.about{
+    background:rgb(10, 1, 69) ;
+    /* background-color:rgb(36, 26, 176); */
+    padding:100px;
+    position:relative;
+    /* height:100vh; */
+    width:100%;
+    display:flex;
+    /* justify-content:space-between; */
+    flex-direction:column;
+    align-items:center;
+}
+.aboutme{
+    font-size: 45px;
+    background: linear-gradient(red, yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-left: 30px;
+    padding-top: 10px;
+  
+}
+.about img{
+    width:100px;
+    height:100px;
+    border:6px solid aqua;
+    border-radius:50%;
+    box-shadow: 5px 14px 100px 40px aqua; 
+}
+
+.about-image{
+    /* border:4px solid rgb(216, 21, 129); */
+    position:relative;
+    border:6px solid rgb(250, 5, 140); 
+    /* border:6px solid purple; */
+    border-radius:50%;
+     width:325px;
+    height:324px; 
+}
+.colouringAbout{
+    position:relative;
+    /* border:6px solid rgb(224, 34, 34);  */
+        border:6px solid purple;
+    border-radius:50%;
+    width:314px;
+     height:314px;    
+}
+.outerColourAbout{
+    position:relative;
+    border:4px solid aquamarine; 
+    border-radius:50%;
+    width:332px;
+     height:332px;  
+}
+.about-content{
+    color:#fff;
+    /* border:2px solid rgb(175, 242, 30); */
+    padding:60px;
+    /* margin:20px; */
+    /* font-size:18px; */
+    line-height:25px;
+    background-image: linear-gradient(rgb(19, 128, 128), rgb(2, 2, 43));
+    margin-top:160px;
+    border-radius:15px;
+    /* margin-left:90px; */
+}
+.education{
+   
+    width:100%;
+    padding:80px;
+    background-color:rgb(6, 6, 85);
+
+}
+.edu-head{
+   align-self:center;
+   max-width:700px;
+   margin:5px auto;
+    color:#fff;
+    /* border:2px solid blue; */
+    padding:25px;
+    text-align: center;
+}
+.edu-head h2{
+    font-size:35px;
+}
+.edu-head p{
+    font-size: 30px;
+   color:greenyellow;
+}
+
+.timeline{
+    position:relative;
+    max-width:1200px;
+    margin:30px auto;
+}
+.container{
+    padding:20px 50px;
+    position:relative;
+    width:700px;
+    background-image:linear-gradient(white,rgb(72, 72, 230));
+    border-radius:15px;
+
+}
+.wrapper{
+    display:grid;
+    place-content:center;
+}
+.learnings{
+    width:100%;
+    /* height:100vh; */
+  
+    position:relative;
+
+
+}
+.learn-head{
+    display:grid;
+    place-content: center;
+    color:#fff;
+    position:relative;
+    padding:100px;
+    text-align:center;
+}
+.learn-head p{
+    font-size: 30px;
+   color:greenyellow;
+}
+
+.learn-content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:70px;
+    color:rgb(5, 5, 108);
+    font-weight:bold;
+    margin:20px 150px;
+}
+.learn-content hr{
+    height:4px;
+    background-color: rgb(175, 242, 30);
+}
+
+.director-img{
+        
+      
+          color: #fff;
+          padding: 20px;
+          background-image: linear-gradient(rgb(19, 128, 128), rgb(2, 2, 43));
+          margin-left: 140px;
+          margin-top:120px;
+          margin-bottom: 140px;
+          border-radius: 15px;
+        
+}
+.home .name{
+font-size: 50px; font-weight: bold; color: rgb(175, 242, 30);
+}
+.home .intro{
+    font-size:25px;
+}
+.home-content{
+text-align:center;
+max-width:700px;
+margin-right: 50px;
+}
+.director{
+    display: flex; justify-content: space-between;
+}
+.projects{
+    position:relative;
+    background-image:linear-gradient(rgb(14, 187, 245),blue) ;
+    padding:20px;
+    position:relative;
+    width:100%;
+    /* height:100vh; */
+}
+.project-head{
+    display:grid;
+    place-content: center;
+    color:#fff;
+    position:relative;
+    padding:10px;
+    text-align:center;
+}
+.project-head p{
+    font-size: 30px;
+   color:greenyellow;
+}
+
+.projects .container{
+    min-height:75vh;
+    width:60%;
+    border:8px solid rgb(144, 208, 4);
+    margin:1rem auto;
+    border-radius:5px;
+    /* box-shadow:10px 10px 35px rgba(0,0,0,0.6); */
+    position:relative;
+    background:url("./images/recipefinder.jpg") center/cover local no-repeat;
+ overflow: hidden;
+ transition:background 1s ease-in-out;
+}
+.project-layer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 9, 12, 0.663);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+.project-layer h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.project-layer a{
+    padding:10px;
+    border-radius:25px;
+    background-color: blue;
+    text-decoration: none;
+    color:#fff;
+    margin-bottom: 10px;
+
+}
+.btn.btn-left{
+    z-index:2;
+    position:absolute;
+    top:50%;
+    left:-15px;
+    padding:20px;
+    background-color:rgb(144, 208, 4);
+    border-radius: 50%;
+    transform:translateY(calc(-50%));
+    cursor:pointer;
+}
+.btn.btn-right{
+    z-index:2;
+    position:absolute;
+    top:50%;
+    right:-15px;
+    padding:20px;
+    background-color:rgb(144, 208, 4);
+    border-radius: 50%;
+    transform:translateY(calc(-50%));
+    cursor:pointer;
+}
+.recipetoggle{
+    display:block;
+}
+.portfoliotoggle{
+    display:block;
+}
+.contact{
+    /* margin:30px; */
+    /* background: linear-gradient(rgb(1, 1, 49),blue,black); */
+    background-image:linear-gradient(blue,black) ;
+    padding:30px;
+}
+.contact a{
+    text-decoration: none;
+    color:white;
+   
+    border-radius:50%;
+    padding:2px 10px;
+    text-align: center;
+    background: linear-gradient(red,yellow);
+    font-size:30px;
+}
+/* .contact i{
+    font-weight:400;
+    width: 50px;
+    height:50px;
+} */
+@media screen and (max-width:1000px){
+    .director-img{
+        margin-left:100px;
+        margin-top:100px;
+    }
+    .home{
+        padding:80px;
+    }
+    .home .intro{
+        font-size:16px;
+    
+    }
+    .home .name{
+        font-size:35px;
+    }
+    
+    }
+    
+    @media screen and (max-width:945px){
+        .director-img{
+            margin-left:80px;
+            margin-top:100px;
+    
+        }
+        .about{
+            padding:40px;
+        }
+    }
+    @media screen and (max-width:916px){
+        .learn-content{
+            margin:20px 70px;
+        }
+     
+    }
+    @media screen and (max-width:825px){
+        .director{
+          display:grid;
+          place-content: center;
+          margin:0;
+          padding:0;
+          align-self:center;
+        }
+        .director-img{
+          margin-left:0px;
+          
+        }
+        .about{
+          padding:40px;
+        }
+        .aboutphoto{
+            max-width:100%;
+            margin:auto;
+            /* margin-top:50px; */
+            align-self:center;
+            padding-top:40px;
+        }
+        
+      }
+      
+     
+@media screen and (max-width:775px){
+    .home{
+    display:grid;
+    place-content: center;
+    height:auto;
+    }
+    .wrapphoto{
+       max-width:100%;
+        margin:auto;
+        /* margin-top:50px; */
+        align-self:center;
+        padding-top:40px;
+    }
+    .home-content{
+        margin-top:50px;
+        font-size:14px;
+        margin-left:20px;
+    }
+    .about-content{
+        margin-top:30px;
+    }
+    .aboutphoto{
+        max-width:100%;
+        margin:auto;
+        /* margin-top:50px; */
+        align-self:center;
+        padding-top:40px;
+    }
+    .learn-content{
+        margin:20px 20px;
+    }
+}
+@media screen and (max-width:760px){
+    .about-content{
+        font-size:14px;
+        line-height:14x;
+        padding:30px;
+    }
+    .about-content{
+        margin-top:30px;
+    }
+.timeline{
+    position:relative;
+    max-width:700px;
+    margin:20px 20px;
+}
+.container{
+    padding:20px 20px;
+    position:relative;
+    width:500px;
+    background-image:linear-gradient(white,rgb(72, 72, 230));
+    border-radius:15px;
+
+}
+
+.timeline h2{
+    font-size:20px;
+}
+/* header{
+    background-color:aqua;
+   
+} */
+.projects .container{
+    min-height:85vh;
+    width:90%;
+    margin:1rem auto;
+}
+.project-layer h2{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.project-layer a{
+    padding:8px;
+    border-radius:15px;
+    margin-bottom: 10px;
+font-size:15px;
+}
+.btn.btn-left{
+  
+    left:-10px;
+    padding:10px;
+    
+}
+.btn.btn-right{
+   
+
+    right:-10px;
+    padding:10px;
+    
+}
+.menu{
+    display:block;
+    /* padding-left:30px; */
+    top:18px;
+
+   position:absolute; 
+   right:10px;
+   float:right;
+}
+nav{
+    display:flex;
+    flex-direction: column;
+    margin-top:20px;
+    text-align:center;
+justify-content:center;
+
+
+}
+nav a{
+color:#fff;
+display:none;
+}
+nav a:hover{
+    color:rgb(250, 5, 140);
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+  
+    padding:15px;
+    z-index:1000;
+  display:block;
+  /* background-color:blue; */
+}
+.showmenu{
+    display:block;
+}
+.show{
+    background-color: blue;
+}
+.portfolio{
+    display:none;
+}
+}
+@media screen and (max-width:520px){
+    .timeline{
+        position:relative;
+        max-width:600px;
+        margin:20px 20px;
+    }
+    .container{
+        padding:20px 20px;
+        position:relative;
+        width:400px;
+        background-image:linear-gradient(white,rgb(72, 72, 230));
+        border-radius:15px;
+    
+    }  
+    .timeline h2{
+        font-size:18px;
+    }
+    .about-content{
+        margin-top:10px;
+    }
+    .director{
+        padding-bottom:0px;
+    }
+    .edu-head p{
+        font-size:20px;
+        margin:5px;
+    }
+    .edu-head{
+        padding:0px;
+    }
+    .learn-head{
+        padding:15px;
+    }
+    .learn-head p{
+        font-size:20px;
+        margin:5px;    }
+}
+ @media screen and (max-width:430px){
+    .home-content{
+        margin:0px;
+    }
+    .home-content h1{
+        font-size:16px;
+    }
+    .home-content .name{
+        font-size:20px;
+    }
+    .home-content p{
+        font-size:14px;
+        text-align:center;
+    }
+    .home{
+        padding-left:5px;
+        padding-right:5px;
+    }
+   
+} 
+@media screen and (max-width:420px){
+    .timeline{
+        position:relative;
+        max-width:480px;
+        margin:20px 20px;
+    }
+    .container{
+        padding:10px 10px;
+        position:relative;
+        width:330px;
+        background-image:linear-gradient(white,rgb(72, 72, 230));
+        border-radius:15px;
+    
+    }  
+    .timeline h2{
+        font-size:16px;
+    }
+    .timeline h4{
+        font-size:14px;
+    }
+    .timeline p{
+        font-size:14px;
+    }
+    .learn-content{
+        padding:5px;
+    }
+    .director-img h2{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:360px){
+    .timeline{
+        position:relative;
+        max-width:420px;
+        margin:20px 20px;
+    }
+    .container{
+        padding:10px 10px;
+        position:relative;
+        width:290px;
+        background-image:linear-gradient(white,rgb(72, 72, 230));
+        border-radius:15px;
+    
+    }  
+    .about{
+        padding:15px;
+    }
+    .timeline h2{
+        font-size:16px;
+    }
+    .timeline h4{
+        font-size:14px;
+    }
+    .timeline p{
+        font-size:14px;
+    }
+    .home-image{
+        
+        position:relative;
+        border:6px solid  rgb(36, 26, 176); 
+        border-radius:50%;
+         width:0px;
+        height:0px; 
+    }
+    .colouring{
+        position:relative;
+            border:6px solid  rgb(36, 26, 176);
+        border-radius:50%;
+        width:0px;
+         height: 0px;    
+    }
+    .outerColour{
+        position:relative;
+        border:4px solid aquamarine; 
+        border-radius:50%;
+        width:270px;
+         height:270px;  
+    }
+    .home-image img{
+        border:6px solid aqua; 
+        border-radius:50%;
+        width:240px;
+        height:240px;
+        box-shadow: 5px 14px 100px 40px aqua; 
+        
+    }
+
+
+    .about img{
+        width:100px;
+        height:100px;
+        border:6px solid aqua;
+        border-radius:50%;
+       
+        box-shadow: 5px 14px 100px 40px aqua; 
+    }
+    
+    .about-image{
+      
+        position:relative;
+        border:6px solid rgb(250, 5, 140); 
+       
+        border-radius:50%;
+         width:272px;
+        height:272px; 
+    }
+    .colouringAbout{
+        position:relative;
+            border:6px solid purple;
+        border-radius:50%;
+        width:261px;
+         height:261px;    
+    }
+    .outerColourAbout{
+        position:relative;
+        border:4px solid aquamarine; 
+        border-radius:50%;
+        width:280px;
+         height:280px;  
+    }
+    
+    .aboutme{
+        font-size:35px;
+        margin-bottom:20px;
+    }
+    .edu-head{
+     
+            display:grid;
+            place-content: center;
+            color:#fff;
+            position:relative;
+            padding:3px;
+            text-align:center;
+            margin:5px;
+        
+    }
+    .edu-head p{
+        font-size:20px;
+        margin:5px;  
+      }
+
+}
