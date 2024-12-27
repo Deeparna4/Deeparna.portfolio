@@ -9,8 +9,8 @@ head.classList.toggle("show");
 
 
 const containerEl=document.querySelector(".projects .container");
-const photo=["recipefinder","portfolio","expense","todo"];
-const detail=["recipetoggle","portfoliotoggle","expensetoggle","todotoggle"];
+const photo=["recipefinder","portfolio","expense","todo","chatapp"];
+const detail=["recipetoggle","portfoliotoggle","expensetoggle","todotoggle","chatapptoggle"];
 const btnsEl=document.querySelectorAll(".btn");
 let index=0;
 const displaycontent=document.querySelectorAll(".project-layer");
